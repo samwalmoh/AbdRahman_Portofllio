@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap');
+
+/* Start Global Rules */
+body {
+  font-family: 'Cairo', sans-serif;
+}
+/* End Global Rules */
+
+/* Start Components */
+.main-title::before {
+  right: -10px;
+}
+.main-title::after {
+  left: -19px !important;
+  right: auto;
+}
+/* End Components */
+/* Start Header */
+header .container > a {
+  border-right: 3px solid var(--secondery-color);
+  border-left: none;
+  padding-right: 1rem;
+  padding-left: 0;
+} 
+header .icons {
+  border-right: 3px solid var(--secondery-color);
+  border-left: none;
+  margin-right: 1.5rem;
+  margin-left: 0  ;
+  padding-right: 1rem;
+  padding-left: 0;
+}
+header img {
+  padding-left: 1rem;
+  padding-right: 0;
+}
+header .nav-left .nav-close {
+  left: 2rem;
+  right: auto;
+  top: 2rem;
+}
+header .head {
+  right: 1rem;
+}
+/* End Header */
+
+/* Start Landing */
+.landing .info i {
+  margin-right: 1rem;
+  margin-left: 0;
+}
+/* End Landing */
+/* Start Pricing */
+.pricing .plan ul li::before,
+.pricing .plan .unchecked::before {
+  right: 0;
+  left: auto;
+}
+/* End Pricing */
+
+/* Start Order */
+.order .tag {
+  width: fit-content;
+  right: 1.25rem;
+}
+/* End Order */
+/* Start Footer */
+.footer .location i {
+  padding-left: 2rem;
+  padding-right: 0;
+}
+/* End Footer */
